@@ -1,14 +1,14 @@
 package com.visitdetail.struts.dao;
 
 /**
- * DAO ½Ó¿Ú
+ * DAO æ¥å£
  * 
  * @author zhoupeng
  *
  */
 public interface IDao {
 
-	public static final int TIME_OUT = 60 * 1000 * 20;// ³¬Ê±Ê±¼ä£º20 ·ÖÖÓ¡£
+	public static final int TIME_OUT = 60 * 1000 * 20;// è¶…æ—¶æ—¶é—´ï¼š20 åˆ†é’Ÿã€‚
 
 	public void create(Object obj);
 }

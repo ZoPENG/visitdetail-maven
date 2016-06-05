@@ -14,36 +14,36 @@ public class VisitOnline {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Integer id;//id Ö÷¼ü
+	private Integer id;//id ä¸»é”®
 	
-	private String userid;//ÓÃ»§±êÊ¶£¬ÓÃ»§Çø±ğ²»Í¬µÄÓÃ»§
+	private String userid;//ç”¨æˆ·æ ‡è¯†ï¼Œç”¨æˆ·åŒºåˆ«ä¸åŒçš„ç”¨æˆ·
 	
-	private String ip;//ipµØÖ·
+	private String ip;//ipåœ°å€
 	
-	private String address;//Êµ¼ÊµØÖ·
+	private String address;//å®é™…åœ°å€
 	
-	private boolean online;//ÊÇ·ñÔÚÏß£¬true ÎªÈÔÔÚÏß£¬ false ÎªÒÑÀëÏß
+	private boolean online;//æ˜¯å¦åœ¨çº¿ï¼Œtrue ä¸ºä»åœ¨çº¿ï¼Œ false ä¸ºå·²ç¦»çº¿
 	
-	private String url;//ÕıÔÚ·ÃÎÊµÄÍøÒ³url
+	private String url;//æ­£åœ¨è®¿é—®çš„ç½‘é¡µurl
 	
-	private String title;//ÕıÔÚ·ÃÎÊµÄÍøÒ³±êÌâ
+	private String title;//æ­£åœ¨è®¿é—®çš„ç½‘é¡µæ ‡é¢˜
 	
-	private int screenwidth;//ÆÁÄ»·Ö±æÂÊ¿í¶È
+	private int screenwidth;//å±å¹•åˆ†è¾¨ç‡å®½åº¦
 	
-	private int screenheight;//ÆÁÄ»·Ö±æÂÊ¸ß¶È
+	private int screenheight;//å±å¹•åˆ†è¾¨ç‡é«˜åº¦
 	
-	private int colordepth;//ÑÕÉ«Î»Êı
+	private int colordepth;//é¢œè‰²ä½æ•°
 	
-	private String appname;//ä¯ÀÀÆ÷ÄÚºË
+	private String appname;//æµè§ˆå™¨å†…æ ¸
 	
-	private String useragent;//ä¯ÀÀÆ÷¡¤²Ù×÷ÏµÍ³ÏêÇé
+	private String useragent;//æµè§ˆå™¨Â·æ“ä½œç³»ç»Ÿè¯¦æƒ…
 	
-	private String systemlanguage;//ÏµÍ³ÓïÑÔ
+	private String systemlanguage;//ç³»ç»Ÿè¯­è¨€
 	
-	private int activetimes;//·ÃÎÊ´ÎÊı
+	private int activetimes;//è®¿é—®æ¬¡æ•°
 	
-	private Date startdate;//µÚÒ»´Î·ÃÎÊÊ±¼ä
+	private Date startdate;//ç¬¬ä¸€æ¬¡è®¿é—®æ—¶é—´
 	
-	private Date lastactiondate;//×îºóÒ»´Î·ÃÎÊÊ±¼ä
+	private Date lastactiondate;//æœ€åä¸€æ¬¡è®¿é—®æ—¶é—´
 	
 }

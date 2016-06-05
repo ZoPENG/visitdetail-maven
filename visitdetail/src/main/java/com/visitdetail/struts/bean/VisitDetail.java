@@ -14,38 +14,38 @@ public class VisitDetail {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Integer id;//id Ö÷¼ü
+	private Integer id;//id ä¸»é”®
 	
-	private String userid;//ÓÃ»§±êÊ¶£¬ÓÃ»§Çø±ğ²»Í¬µÄÓÃ»§
+	private String userid;//ç”¨æˆ·æ ‡è¯†ï¼Œç”¨æˆ·åŒºåˆ«ä¸åŒçš„ç”¨æˆ·
 	
-	private String ip;//IPµØÖ·
+	private String ip;//IPåœ°å€
 	
-	private String address;//Êµ¼ÊµØÖ·
+	private String address;//å®é™…åœ°å€
 	
-	private String url;//ÕıÔÚ·ÃÎÊµÄÍøÒ³URL
+	private String url;//æ­£åœ¨è®¿é—®çš„ç½‘é¡µURL
 	
-	private String title;//ÕıÔÚ·ÃÎÊµÄÍøÒ³±êÌâ
+	private String title;//æ­£åœ¨è®¿é—®çš„ç½‘é¡µæ ‡é¢˜
 	
-	private String reffer;//ÍøÒ³À´Ô´£¬ÀıÈçËÑË÷ÒıÇæ
+	private String reffer;//ç½‘é¡µæ¥æºï¼Œä¾‹å¦‚æœç´¢å¼•æ“
 	
-	private String keyword;//Èç¹ûÍøÂçËÑË÷ÒıÇæ£¬¼ÇÂ¼¹Ø¼ü×Ö
+	private String keyword;//å¦‚æœç½‘ç»œæœç´¢å¼•æ“ï¼Œè®°å½•å…³é”®å­—
 	
-	private int screenwidth;//ÆÁÄ»·Ö±æÂÊ¿í¶È
+	private int screenwidth;//å±å¹•åˆ†è¾¨ç‡å®½åº¦
 	
-	private int screenheight;//ÆÁÄ»·Ö±æÂÊ¸ß¶È
+	private int screenheight;//å±å¹•åˆ†è¾¨ç‡é«˜åº¦
 	
-	private int colordepth;//ÑÕÉ«Î»Êı
+	private int colordepth;//é¢œè‰²ä½æ•°
 	
-	private String appname;//ä¯ÀÀÆ÷ÄÚºË
+	private String appname;//æµè§ˆå™¨å†…æ ¸
 	
-	private String useragent;//ä¯ÀÀÆ÷¡¤²Ù×÷ÏµÍ³ÏêÇé
+	private String useragent;//æµè§ˆå™¨Â·æ“ä½œç³»ç»Ÿè¯¦æƒ…
 	
-	private String systemlanguage;//ÏµÍ³ÓïÑÔ
+	private String systemlanguage;//ç³»ç»Ÿè¯­è¨€
 	
-	private int activetimes;//·ÃÎÊ´ÎÊı
+	private int activetimes;//è®¿é—®æ¬¡æ•°
 	
-	private Date startdate;//µÚÒ»´Î·ÃÎÊÊ±¼ä
+	private Date startdate;//ç¬¬ä¸€æ¬¡è®¿é—®æ—¶é—´
 	
-	private Date lastactiondate;//×îºóÒ»´Î·ÃÎÊÊ±¼ä
+	private Date lastactiondate;//æœ€åä¸€æ¬¡è®¿é—®æ—¶é—´
 	
 }
